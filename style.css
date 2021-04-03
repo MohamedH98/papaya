@@ -88,7 +88,7 @@ body {
 }
 
 .title-image {
-  filter: drop-shadow(0.8rem 0.8rem 0.4rem rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(16px 16px 10px black);
   max-width: 100%;
   z-index: 2;
 }
