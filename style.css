@@ -81,7 +81,7 @@ body {
 }
 
 .nav-link {
-  font-size: var(--fs-h6);
+  font-size: var(--fs-h5);
   font-family: var(--ff-primary);
   text-align: center;
   color: #000;
