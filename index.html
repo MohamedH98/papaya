@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<lang lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>papaya</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+    <div class="container-fluid">
+      <section id="title" class="main-sections">
+        <div class="nav-section">
+          <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand pr-4" href="#"
+              ><i class="fas fa-leaf icon"></i> papaya</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarToggler"
+              aria-controls="navbarToggler"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#farmers-info-holder"
+                    >About<span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link farmer-nav" href="#farmers-info-holder">Our Farmers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link user-nav" href="#user-info-holder">Our Users</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact us</a>
+                </li>
+              </ul>
+
+              <span class="navbar-text hidden-number nav-link"
+                ><i class="fas fa-phone icon"></i> 01633 215458
+              </span>
+            </div>
+          </nav>
+        </div>
+        <div class="row intro-container">
+            <div class="col-lg-6 intro-text d-flex flex-column justify-content-center ">
+              <div ><h1>from farm to fork</h1></div>
+              <div><h4>We aim to make the world a more transparent place by tracking your product from farm to fork.</h4></div>
+              <div class="d-flex justify-content-flex-start button-container text-center">
+                <button
+                  id="farmers-btn" class="btn btn-lg key-buttons button my-4 mx-2"
+                  type="button"
+                >
+                  Farmer
+                </button>
+                <button
+                id="user-btn" class="btn btn-lg key-buttons button my-4 mx-2"
+                type="button"
+              >
+               Shopper
+              </button>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center">
+              <img
+                class="title-image "
+                src="images/papayatrans.png"
+                alt="Papaya photo"
+              />
+            </div>
+          </div>
+          <div id="farmers-svg" class="custom-shape-divider-bottom-1617462339">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        </section>
+
+        <!-- farmers Info -->
+        <div class="farmers-container">
+        <section id="farmers-info-holder" class=" info-holder d-flex flex-column justify-content-center ">
+            <h2 class="py-4">About us</h2>
+            <div class="farmers-choice d-block mx-auto">
+                <div class="row d-flex justify-content-center align-items-center px-4">
+                      <img class="col-sm col-md-6 py-3 choice-photo" src="images/farmer.jpg" alt="Farmers hands">
+                    <div class="col-sm col-md-6">
+                      <p class="choice-text ">With over 200 independent farmers all over Britain who are dedicated to ensure that their cruelty-free, organic, and sustainable products remain that way throughout the entire supply chain. By increasing traceability and transparency in the food supply chain, we hope to increase food safety and food fraud.</p>
+                    </div>
+                  </div>
+                  </div>
+            <h2 class="py-4">How it works for farmers</h2>
+        <div class="row justify-content-center mb-3">
+            <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+              <div class="card px-3 pb-4 mb-3">
+                <div class="card-body">
+                    <i class="fas fa-qrcode my-4 icons"></i>
+                  <h4 class="card-title">Unique ID</h4>
+                  <p class="card-text">Each item will have a unique ID that can be used to track its journey.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                <div class="card px-3 pb-4 mb-3">
+                  <div class="card-body">
+                      <i class="fas fa-wrench my-4 icons"></i>
+                    <h4 class="card-title">Track</h4>
+                    <p class="card-text">Integrated with our mobile apps, you can view exactly where your product is in the supply chain in real time.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                <div class="card px-3 pb-4 mb-3">
+                  <div class="card-body">
+                      <i class="fas fa-check-circle my-4 icons"></i>
+                    <h4 class="card-title">Remain authentic</h4>
+                    <p class="card-text">With our blockchain technology, we can authenticate food origin and prevent fraud.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                <div class="card px-3 pb-4 mb-3">
+                  <div class="card-body">
+                      <i class="fas fa-handshake my-4 icons"></i>
+                    <h4 class="card-title">Impact</h4>
+                    <p class="card-text">With your help, we can fullfil our mission to make the world a more transparent place.</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <button
+          id="choice-farmer-btn" class="btn btn-lg key-buttons button my-4 mx-auto d-block"
+          type="button"
+        >
+          Request more infomation
+        </button>
+
+
+
+        </section>
+          <div id="user-svg" class="custom-shape-divider-bottom-1617462339">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        </div>
+
+
+
+<!-- users -->
+<div class="users-container">
+        <section id="user-info-holder" class="info-holder d-flex flex-column justify-content-center ">
+            <h2 class="py-4">Sustainable, Organic, and Safe</h2>
+            <div class="users-choice d-block mx-auto">
+                <div class="row d-flex justify-content-center align-items-center px-4">
+                    <div class="col-sm col-md-6">
+                      <p class="choice-text ">By giving you the tools to follow the journey your food takes, from farm to fork, you can be sure that what you are consuming is organic, sustainable, and safe.</p>
+                    </div>
+                    <img class="col-sm col-md-6 py-3 choice-photo" src="/images/strawberries.jpg" alt="Strawberries">
+        
+                  </div>
+                  </div>
+            <h2 class="py-4">How it works for users</h2>
+        <div class="row justify-content-center mb-3">
+            <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                <div class="card px-3 pb-4 mb-3">
+                <div class="card-body">
+                    <i id="user-icons" class="fas fa-qrcode my-4 icons"></i>
+                  <h4 class="card-title">Order</h4>
+                  <p class="card-text">Using our app, you can see which products will be coming to your local area and place an order.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                <div class="card px-3 pb-4 mb-3">
+                  <div class="card-body">
+                      <i id="user-icons" class="fas fa-wrench my-4 icons"></i>
+                    <h4 class="card-title">Track</h4>
+                    <p class="card-text">You can track your order and know exactly where it is at any given time.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                <div class="card px-3 pb-4 mb-3">
+                  <div class="card-body">
+                      <i id="user-icons" class="fas fa-truck my-4 icons"></i>
+                    <h4 class="card-title">Free Delivery</h4>
+                    <p class="card-text">Cut out all the unnecessary travel and get your order delivered straight to your door for free!</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                <div class="card px-3 pb-4 mb-3">
+                  <div class="card-body">
+                      <i id="user-icons" class="fas fa-truck my-4 icons"></i>
+                      <h4 class="card-title">Impact</h4>
+                      <p class="card-text">Help us and our dedicated farmers to make the world a more transparent place.</p>
+                  </div>
+                </div>
+            </div>
+
+          </div>
+          <button
+          id="user-farmer-btn" class="btn btn-lg key-buttons button my-4 mx-auto d-block"
+          type="button"
+        >
+          Request more infomation
+        </button>
+          
+        </section>
+
+    </div>
+    <footer class="bg-dark text-center text-white footer">
+        <div class="container p-4">
+          <div class="mb-4">    
+            <a class="btn btn-outline-light btn-floating m-1" href="mailto:mohamedahassan188@gmail.com" role="button"
+            ><i class="fas fa-envelope"></i
+          ></a>  
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/mohamed-hassan-898399150/" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/MohamedH98" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/momito8_" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com/momito8_" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+
+              </div>
+    </div></footer>
+</div>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
