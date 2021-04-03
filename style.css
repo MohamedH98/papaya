@@ -92,6 +92,14 @@ body {
   max-width: 100%;
   z-index: 2;
 }
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* CSS stuff here */
+  .title-image {
+    filter: drop-shadow(0.8rem 0.8rem 0.4rem rgba(0, 0, 0, 0.5));
+    max-width: 100%;
+    z-index: 2;
+  }
+}
 .navbar-toggler {
   font-size: 1.5rem;
 }
